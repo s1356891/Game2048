@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddffff"
+    android:orientation="vertical"
+    tools:context="com.workspace.bin.a2048.MainActivity">
+    <TextView
+        android:id="@+id/tv_title"
+        android:background="#ffaa"
+        android:textColor="@color/colorAccent"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="Game2048"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <TextView
+        android:id="@+id/conf"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+
+        android:text="Configuration"
+        android:layout_below="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Game Lines"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:id="@+id/btn_line"
+       android:text="4"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Target Goal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:id="@+id/btn_goal"
+        android:text="2048"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button"
+            android:text="EXIT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button"
+            android:text="DONE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <TextView
+        android:id="@+id/tv_cm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="Contact Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

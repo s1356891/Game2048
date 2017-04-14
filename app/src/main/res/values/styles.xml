@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#6000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/activityStyle</item>
+    </style>
+    <style name="activityStyle">
+        <!--<item name="android:activityOpenEnterAnimation">@anim/activity_open_in_anim</item>-->
+        <!--<item name="android:activityOpenExitAnimation">@anim/activity_open_out_anim</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/activity_close_in_anim</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@anim/activity_close_out_anim</item>-->
+        <item name="android:windowEnterAnimation">@anim/activity_open_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/activity_open_out_anim</item>
+    </style>
+</resources>
